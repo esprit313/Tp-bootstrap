@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Découverte du Sénégal</title>
+  
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="image/bootstrap-icons/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="bg-dark py-2">
+      <div class="container d-flex align-items-center gap-3">
+        <a
+          href="#accueil"
+          class="text-white text-decoration-none fw-bold fs-4 me-4"
+          ><i class="bi bi-geo-alt-fill me-2"></i>Sénégal</a
+        >
+        <a href="#accueil" class="btn btn-primary">Accueil</a>
+        <a href="#decouvrir" class="text-white text-decoration-none"
+          >Découvrir</a
+        >
+        <a href="#lieux" class="text-white text-decoration-none"
+          >Lieux touristiques</a
+        >
+        <a href="#" class="text-white text-decoration-none">Galerie</a>
+        <a href="#" class="text-white text-decoration-none">Contact</a>
+      </div>
+    </nav>
+
+    <main>
+      <section id="decouvrir" class="position-relative">
+        <div class="ratio ratio-21x9">
+          <img
+            src="image/monument-renaissance-africaine.png"
+            class="object-fit-fill"
+            alt="Monument de la Renaissance africaine"
+          />
+        </div>
+        <div
+          class="position-absolute top-50 start-0 translate-middle-y ms-4 w-50 rounded bg-dark bg-opacity-75 text-white p-3"
+        >
+          <h1 class="display-5 fw-bold mb-1">Découverte du Sénégal</h1>
+          <p>Un pays riche en culture, en paysages et en hospitalité.</p>
+          <a href="#lieux" class="btn btn-primary">Explorer maintenant</a>
+        </div>
+      </section>
+
+      <section
+        id="lieux"
+        class="container-fluid py-2"
+        aria-label="Lieux touristiques"
+      >
+        <div class="row g-2">
+          <div class="col-4">
+            <article
+              class="bg-success-subtle text-success-emphasis rounded h-100 p-3"
+            >
+              <div class="ratio ratio-21x9">
+                <img
+                  src="image/mosquee-de-dakar.png"
+                  class="rounded object-fit-cover"
+                  alt="Dakar"
+                />
+              </div>
+              <h2 class="h4 fw-bold mt-2 mb-1">Dakar</h2>
+              <p class="text-dark mb-2">
+                La capitale du Sénégal, dynamique et moderne, offre un mélange
+                unique de tradition et de modernité.
+              </p>
+              <a href="#fiche-dakar" class="btn btn-success btn-sm"
+                >En savoir plus</a
+              >
+            </article>
+          </div>
+          <div class="col-4">
+            <article
+              class="bg-primary-subtle text-primary-emphasis rounded h-100 p-3"
+            >
+              <div class="ratio ratio-21x9">
+                <img
+                  src="image/pirogues-du-lac-rose.png"
+                  class="rounded object-fit-cover"
+                  alt="Le Lac Rose"
+                />
+              </div>
+              <h2 class="h4 fw-bold mt-2 mb-1">Le Lac Rose</h2>
+              <p class="text-dark mb-2">
+                Célèbre pour ses eaux roses exceptionnelles, le Lac Rose est une
+                merveille naturelle du Sénégal.
+              </p>
+              <a href="#fiche-lac-rose" class="btn btn-primary btn-sm"
+                >En savoir plus</a
+              >
+            </article>
+          </div>
+          <div class="col-4">
+            <article
+              class="bg-warning-subtle text-warning-emphasis rounded h-100 p-3"
+            >
+              <div class="ratio ratio-21x9">
+                <img
+                  src="image/baobabs-de-casamance.png"
+                  class="rounded object-fit-cover"
+                  alt="La Casamance"
+                />
+              </div>
+              <h2 class="h4 fw-bold mt-2 mb-1">La Casamance</h2>
+              <p class="text-dark mb-2">
+                Une région verdoyante connue pour ses paysages exceptionnels,
+                ses traditions et son accueil chaleureux.
+              </p>
+              <a href="#fiche-casamance" class="btn btn-warning btn-sm"
+                >En savoir plus</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="container-fluid bg-primary-subtle text-center py-3"
+        aria-label="Les richesses du Sénégal"
+      >
+        <div class="row">
+          <div class="col-4">
+            <i
+              class="bi bi-camera-fill d-inline-block rounded-circle bg-primary-subtle border px-3 py-2 fs-4"
+            
+            ></i>
+            <h2 class="h6 fw-bold mt-2 mb-1">Des paysages uniques</h2>
+            <p class="small mb-0">
+              Plages, lacs, forêts et savanes à couper le souffle.
+            </p>
+          </div>
+          <div class="col-4">
+            <i
+              class="bi bi-people-fill d-inline-block rounded-circle bg-success-subtle border px-3 py-2 fs-4"
+             
+            ></i>
+            <h2 class="h6 fw-bold mt-2 mb-1">Une culture riche</h2>
+            <p class="small mb-0">
+              Traditions, musique, gastronomie et artisanat.
+            </p>
+          </div>
+          <div class="col-4">
+            <i
+              class="bi bi-leaf-fill d-inline-block rounded-circle bg-warning-subtle border px-3 py-2 fs-4"
+             
+            ></i>
+            <h2 class="h6 fw-bold mt-2 mb-1">Un tourisme durable</h2>
+            <p class="small mb-0">
+              Découvrir et préserver les richesses du Sénégal.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+   <footer class="bg-dark text-white text-center py-3">
+      <small>© 2024 Découverte du Sénégal. Tous droits réservés.</small>
+      <span class="ms-4"
+        ><i class="bi bi-facebook me-3"></i><i class="bi bi-instagram me-3"></i
+        ><i class="bi bi-youtube me-3"></i><i class="bi bi-twitter"></i
+      ></span>
+    </footer>
+
+    
+  <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
